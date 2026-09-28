@@ -1,0 +1,11 @@
+rule_id,rule_name,dimension,failed_count
+R01,NULL_ORDER_DATE,Completeness,10
+R02,NULL_CUSTOMER_ID,Completeness,10
+R03,NULL_AMOUNT,Completeness,10
+R04,INVALID_ORDER_ID,Validity,20
+R05,DUPLICATE_ORDER_ID,Uniqueness,20
+R06,INVALID_DATE,Validity,25
+R07,FUTURE_DATE,Validity,15
+R08,NEGATIVE_AMOUNT,Accuracy,25
+R09,AMOUNT_NOT_NUMERIC,Consistency,10
+R10,INVALID_STATUS,Validity,15
